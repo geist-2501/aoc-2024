@@ -7,7 +7,7 @@ class Resources {
             val fileContent =
                 Resources::class.java.getResource(absFilePath)?.readText() ?: throw Exception("File not found")
 
-            return fileContent.split("\n")
+            return fileContent.trim().split("\n")
         }
     }
 }
