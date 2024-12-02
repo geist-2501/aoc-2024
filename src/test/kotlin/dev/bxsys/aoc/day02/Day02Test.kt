@@ -20,4 +20,20 @@ class Day02Test {
 
         println(result)
     }
+
+    @Test
+    fun part2_testInput() {
+        val input = Resources.readLines("day02/test.txt")
+        val result = Day02(input).part2()
+
+        assertEquals(4, result)
+    }
+
+    @Test
+    fun part2_realInput() {
+        val input = Resources.readLines("day02/input.txt")
+        val result = Day02(input).part2()
+
+        println(result)
+    }
 }
