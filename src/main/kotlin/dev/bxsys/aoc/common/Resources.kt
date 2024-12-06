@@ -3,7 +3,7 @@ package dev.bxsys.aoc.common
 class Resources {
     companion object {
         fun readLines(file: String): List<String> {
-            return read(file).split("\n")
+            return read(file).split("\n").map { it.trim() }
         }
 
         fun read(file: String): String {
