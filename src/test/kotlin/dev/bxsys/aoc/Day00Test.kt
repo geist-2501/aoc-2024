@@ -1,4 +1,4 @@
-package dev.bxsys.aoc.day00
+package dev.bxsys.aoc
 
 import dev.bxsys.aoc.common.Resources
 import kotlin.test.Test

@@ -1,7 +1,6 @@
 package dev.bxsys.aoc
 
 import dev.bxsys.aoc.common.Resources
-import dev.bxsys.aoc.day04.Day04
 import kotlin.test.Test
 import kotlin.test.assertEquals
 

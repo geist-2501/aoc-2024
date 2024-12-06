@@ -1,4 +1,4 @@
-package dev.bxsys.aoc.day04
+package dev.bxsys.aoc
 
 import dev.bxsys.aoc.common.Matrix
 import dev.bxsys.aoc.common.Vector

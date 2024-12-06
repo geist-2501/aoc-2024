@@ -1,4 +1,4 @@
-package dev.bxsys.aoc.day00
+package dev.bxsys.aoc
 
 class Day00(private val input: List<String>) {
     fun part1(): Int {

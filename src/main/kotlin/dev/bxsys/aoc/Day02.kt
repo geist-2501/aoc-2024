@@ -1,4 +1,4 @@
-package dev.bxsys.aoc.day02
+package dev.bxsys.aoc
 
 import kotlin.math.abs
 
